@@ -53,7 +53,6 @@ The astronaut gently bounces in the center of the screen against a space-themed 
 ├── public/
 │   ├── astronaut.png
 │   ├── wallpaper.webp
-│   └── (favicon, etc.)
 ├── src/
 │   ├── App.jsx
 │   ├── main.jsx
