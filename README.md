@@ -8,7 +8,7 @@ The astronaut gently bounces in the center of the screen against a space-themed 
 
 ## Live Demo
 
-https://css-anime-carousel.vercel.app/
+[https://css-anime-carousel.vercel.app/](https://bouncing-image-xi.vercel.app/)
 
 ## Features
 
