@@ -1,16 +1,77 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1463" height="748" alt="942shots_so" src="https://github.com/user-attachments/assets/0841153d-8a32-4763-988c-a7d442dfde72" />
 
-Currently, two official plugins are available:
+# Floating Astronaut
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A minimalist, full-screen web animation built with React, JavaScript, and CSS.
+The astronaut gently bounces in the center of the screen against a space-themed background, creating a smooth, looping motion.
 
-## React Compiler
+## Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://css-anime-carousel.vercel.app/
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Centered full-screen layout with responsive design
+- Smooth bounce animation using `CSS @keyframes`
+- Clean and modern visual style
+- Easy to customize background and animation speed
+- Lightweight and fast to load
+
+## Tech Stack
+
+- **React**
+- **JavaScript**
+- **CSS**
+
+## Getting Started
+
+1. **Clone the repository:**
+
+   ```bash
+    git clone https://github.com/tu-usuario/floating-astronaut
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd floating-astronaut
+   
+3. **Install dependencies:**
+
+   ```bash
+    npm install
+
+4. **Start the development server:**
+
+   ```bash
+    npm run dev
+
+## Folder Structure
+
+```
+
+├── public/
+│   ├── astronaut.png
+│   ├── wallpaper.webp
+│   └── (favicon, etc.)
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .gitignore
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+└── vite.config.js
+
+```
+
+## Credits
+
+- Images from [Freepik](https://www.freepik.com/)
+
+## License
+
+This project is open-source and free to use for educational or personal purposes. Fork, clone, and customize freely.
